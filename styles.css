@@ -1,0 +1,174 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Monserrat';
+}   
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* Tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url("../image/fond\ noir.jpg");
+    background-size: cover;
+    height: 90vh;
+    padding: 25px;
+}
+
+/* page de bienvenue */
+
+.landing-page {
+    position: relative;
+    padding : 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.livraison-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 2000;
+    position: relative;
+    text-decoration: underline;
+    margin: 50px;
+}
+
+
+.creation {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 50px;
+}
+
+.specialiser {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 50px;
+}
+
+.activité {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.activité-principale {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 50px;
+}
+
+.salariés {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 50px;
+}
+
+/* Nous envoyer une demande d'intervention */
+
+.intervention {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 2000;
+    position: relative;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.nous-contacter {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px;
+}
+
+.mail {
+    font-size: 30px;
+    font-weight: 1000;
+    margin: 10px;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
